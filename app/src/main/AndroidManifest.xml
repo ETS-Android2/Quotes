@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Quotes">
         <activity
+            android:name=".Home_Screen.Newest_Quotes"
+            android:exported="false" />
+        <activity
             android:name=".Home_Screen.Category_Homepage"
             android:exported="false" />
         <activity

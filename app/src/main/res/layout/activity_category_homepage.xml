@@ -22,9 +22,10 @@
             android:gravity="center">
 
             <ImageView
+                android:id="@+id/back_btn"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/ic_baseline_menu_24" />
+                android:src="@drawable/arrow" />
 
             <TextView
                 android:id="@+id/heading_txt"
@@ -41,6 +42,7 @@
                 android:textStyle="bold" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_category"
         android:layout_width="match_parent"

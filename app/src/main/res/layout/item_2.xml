@@ -22,10 +22,11 @@
                 android:layout_height="350dp">
 
                 <ImageView
+                    android:id="@+id/change_images_btn"
                     android:layout_width="match_parent"
                     android:layout_height="350dp"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/grdiant_color" />
+                    android:src="@drawable/backgrounds" />
 
                 <TextView
                     android:id="@+id/slogan_txt"
@@ -34,7 +35,8 @@
                     android:fontFamily="@font/poppins"
                     android:gravity="center"
                     android:text="Hello Welcome\n To \nMirror World..."
-                    android:textColor="@color/black" />
+                    android:textColor="@color/white"
+                    android:textSize="16dp" />
             </FrameLayout>
 
             <LinearLayout
@@ -47,8 +49,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_gravity="center"
-                    android:gravity="center"
-                    android:layout_margin="5dp">
+                    android:layout_margin="5dp"
+                    android:gravity="center">
 
                     <LinearLayout
                         android:layout_width="80dp"
@@ -87,6 +89,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/copy_btn"
                         android:layout_width="80dp"
                         android:layout_height="match_parent">
 
