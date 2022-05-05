@@ -34,12 +34,11 @@
                 android:layout_marginRight="20dp"
                 android:layout_weight="1"
                 android:backgroundTint="@color/black"
-                android:fontFamily="serif"
+                android:fontFamily="@font/poppins"
                 android:text="Category"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="20dp" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 

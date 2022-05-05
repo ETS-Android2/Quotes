@@ -28,6 +28,7 @@ public class Rv_Adapter extends RecyclerView.Adapter<Rv_Adapter.ViewDataHolder> 
     Activity activity;
     List<Modal_Data_Quotes> l2 = new ArrayList<>();
 
+    public int i = 0;
 
     public Rv_Adapter(Category_Homepage category_homepage, List<Modal_Data_Quotes> l2) {
         activity = category_homepage;
@@ -47,11 +48,22 @@ public class Rv_Adapter extends RecyclerView.Adapter<Rv_Adapter.ViewDataHolder> 
     public void onBindViewHolder(@NonNull ViewDataHolder holder, int position) {
         final Random RANDOM = new Random();
         holder.slogan_txt.setText(l2.get(position).getS());
+
+
         holder.change_images_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Random rand = new Random();
-                holder.change_images_btn.setImageResource(l2.get(position).getImages());
+
+                if (i < 12) {
+                    holder.change_images_btn.setImageResource(l2.get(i).getImages());
+
+                    i++;
+
+                    if (i >= 12) {
+                        i = 0;
+                    }
+
+                }
 
             }
         });
@@ -75,5 +87,8 @@ public class Rv_Adapter extends RecyclerView.Adapter<Rv_Adapter.ViewDataHolder> 
             change_images_btn = itemView.findViewById(R.id.change_images_btn);
 
         }
+
     }
+
+
 }
