@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:gravity="center">
@@ -24,7 +25,7 @@
                 <ImageView
                     android:id="@+id/change_images_btn"
                     android:layout_width="match_parent"
-                    android:layout_height="350dp"
+                    android:layout_height="wrap_content"
                     android:scaleType="centerCrop"
                     android:src="@drawable/backgrounds" />
 
@@ -52,11 +53,14 @@
                     android:layout_margin="5dp"
                     android:gravity="center">
 
+
                     <LinearLayout
                         android:layout_width="80dp"
                         android:layout_height="wrap_content">
 
+
                         <ImageView
+                            android:id="@+id/like_btn"
                             android:layout_width="24dp"
                             android:layout_height="24dp"
                             android:layout_gravity="center"
@@ -72,6 +76,7 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/download_btn"
                         android:layout_width="100dp"
                         android:layout_height="match_parent">
 
@@ -95,7 +100,7 @@
 
                         <ImageView
                             android:layout_width="24dp"
-                            android:layout_height="24dp"
+                            android:layout_height="22dp"
                             android:layout_gravity="center"
                             android:layout_marginLeft="5dp"
                             android:src="@drawable/ic_baseline_content_copy_24" />
@@ -109,12 +114,13 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/share_btn"
                         android:layout_width="70dp"
                         android:layout_height="wrap_content">
 
                         <ImageView
                             android:layout_width="24dp"
-                            android:layout_height="24dp"
+                            android:layout_height="21dp"
                             android:layout_gravity="center"
                             android:layout_marginLeft="5dp"
                             android:src="@drawable/ic_baseline_share_24" />

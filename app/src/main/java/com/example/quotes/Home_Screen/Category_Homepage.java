@@ -39,7 +39,7 @@ public class Category_Homepage extends AppCompatActivity {
         });
 
         if (cat.equals(category[0])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
+            int[] images = {R.drawable.im3, R.drawable.im6, R.drawable.im5, R.drawable.im8, R.drawable.im3, R.drawable.im6, R.drawable.im5, R.drawable.im8, R.drawable.im3, R.drawable.im6, R.drawable.im5, R.drawable.backgrounds};
             String[] Quotes = {"“When you have a dream, you’ve got to grab it and never let go.”",
                     " “Nothing is impossible. The word itself says ‘I’m possible!'”",
                     "“There is nothing impossible to they who will try.”",
@@ -62,8 +62,8 @@ public class Category_Homepage extends AppCompatActivity {
                 rv_category.setAdapter(rvAdapter);
             }
         } else if (cat.equals(category[1])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
-            String[] Love = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim",
+            int[] images = {R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.backgrounds};
+            String[] Love = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect.” —Angelita Lim",
                     " “You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss",
                     "  “Love is that condition in which the happiness of another person is essential to your own.” —Robert A. Heinlein",
                     "“The best thing to hold onto in life is each other.” –Audrey Hepburn",
@@ -84,7 +84,7 @@ public class Category_Homepage extends AppCompatActivity {
                 rv_category.setAdapter(rvAdapter);
             }
         } else if (cat.equals(category[2])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
+            int[] images = {R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.backgrounds};
             String[] Sad = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim",
                     " “You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss",
                     "  “Love is that condition in which the happiness of another person is essential to your own.” —Robert A. Heinlein",
@@ -106,7 +106,7 @@ public class Category_Homepage extends AppCompatActivity {
                 rv_category.setAdapter(rvAdapter);
             }
         } else if (cat.equals(category[3])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
+            int[] images = {R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.backgrounds};
             String[] quotes = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim",
                     " “You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss",
                     "  “Love is that condition in which the happiness of another person is essential to your own.” —Robert A. Heinlein",
@@ -128,7 +128,7 @@ public class Category_Homepage extends AppCompatActivity {
                 rv_category.setAdapter(rvAdapter);
             }
         } else if (cat.equals(category[4])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
+            int[] images = {R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.backgrounds};
 
             String[] quotes = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim",
                     " “You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss",
@@ -151,7 +151,7 @@ public class Category_Homepage extends AppCompatActivity {
                 rv_category.setAdapter(rvAdapter);
             }
         } else if (cat.equals(category[5])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
+            int[] images = {R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.backgrounds};
 
             String[] quotes = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim",
                     " “You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss",
@@ -197,7 +197,7 @@ public class Category_Homepage extends AppCompatActivity {
                 rv_category.setAdapter(rvAdapter);
             }
         } else if (cat.equals(category[7])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
+            int[] images = {R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.backgrounds};
 
             String[] quotes = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim",
                     " “You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss",
@@ -220,7 +220,7 @@ public class Category_Homepage extends AppCompatActivity {
                 rv_category.setAdapter(rvAdapter);
             }
         } else if (cat.equals(category[8])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
+            int[] images = {R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.backgrounds};
 
             String[] quotes = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim",
                     " “You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss",
@@ -243,7 +243,7 @@ public class Category_Homepage extends AppCompatActivity {
                 rv_category.setAdapter(rvAdapter);
             }
         } else if (cat.equals(category[9])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
+            int[] images = {R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.backgrounds};
 
             String[] quotes = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim",
                     " “You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss",
@@ -266,7 +266,7 @@ public class Category_Homepage extends AppCompatActivity {
                 rv_category.setAdapter(rvAdapter);
             }
         } else if (cat.equals(category[10])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
+            int[] images = {R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.backgrounds};
             String[] quotes = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim",
                     " “You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss",
                     "  “Love is that condition in which the happiness of another person is essential to your own.” —Robert A. Heinlein",
@@ -289,7 +289,7 @@ public class Category_Homepage extends AppCompatActivity {
                 rv_category.setAdapter(rvAdapter);
             }
         } else if (cat.equals(category[11])) {
-            int[] images = {R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds, R.drawable.background2, R.drawable.elgbackground, R.drawable.backgrounds};
+            int[] images = {R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.l4, R.drawable.l1, R.drawable.l2, R.drawable.l3, R.drawable.backgrounds};
             String[] quotes = {"“I saw that you were perfect, and so I loved you. Then I saw that you were not perfect and I loved you even more.” —Angelita Lim",
                     " “You know you’re in love when you can’t fall asleep because reality is finally better than your dreams.” —Dr. Seuss",
                     "  “Love is that condition in which the happiness of another person is essential to your own.” —Robert A. Heinlein",
